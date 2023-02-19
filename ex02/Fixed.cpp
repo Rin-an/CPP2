@@ -6,7 +6,7 @@
 /*   By: ssadiki <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 00:03:10 by ssadiki           #+#    #+#             */
-/*   Updated: 2022/12/20 16:41:27 by ssadiki          ###   ########.fr       */
+/*   Updated: 2023/02/19 18:54:29 by ssadiki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -139,6 +139,10 @@ Fixed&	Fixed::operator++(void)
 
 Fixed	Fixed::operator++(int)
 {
+	int x =1;
+	int	y = 2;
+	x = y++;
+	x = ++y;
 	Fixed	f;
 
 	f.fxpt = this->fxpt;
